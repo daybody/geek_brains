@@ -1,4 +1,5 @@
 var nodePath = process.argv[0];
+var appPath = process.argv[1];
 var time_1 = process.argv[2];
 var time_2 = process.argv[3];
 var hh = 0;

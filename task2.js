@@ -1,4 +1,5 @@
 var nodePath = process.argv[0];
+var appPath = process.argv[1];
 var testStr_1 = process.argv[2];
 var testStr_2 = process.argv[3];
 var counter = 0;
