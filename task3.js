@@ -16,12 +16,9 @@ mm = ((alltime - hh*3600)/60)^0;
 ss = alltime - (hh*3600 + mm *60)
 
 if (hh != 0){
-    process.stdout.write(hh +" Часов "+ mm + " Минут " + ss + " Секунд"); 
-    
+    process.stdout.write(hh +" часов "+ mm + " минут " + ss + " секунд"); 
 }else if (mm === 0) {
-    process.stdout.write(ss + " Секунд")
+    process.stdout.write(ss + " секунд")
 } else {
-    process.stdout.write(+ mm + " Минут " + ss + " Секунд"); 
+    process.stdout.write(mm + " минут " + ss + " секунд"); 
 }
-
-

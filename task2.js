@@ -4,9 +4,10 @@ var testStr_1 = process.argv[2];
 var testStr_2 = process.argv[3];
 var counter = 0;
 
-myArray_1 = myStr_1.split('');
-myArray_2 = myStr_2.split('');
-
+var myArray_1 = testStr_1.split('');
+var myArray_2 = testStr_2.split('');
+console.log(myArray_1);
+console.log(myArray_2);
 
 for(var i = 0; i<myArray_1.length; i++){
     if(myArray_1[i] === myArray_2[i]){
@@ -21,4 +22,4 @@ for(var i = 0; i<myArray_1.length; i++){
     }
 }
 
-process.stdout.write(counter);
+console.log(counter);
