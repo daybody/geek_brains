@@ -17,7 +17,7 @@ ss = alltime - (hh*3600 + mm *60)
 
 hours   = ['час', 'часа', 'часов'];
 minuts  = ['минута', 'минуты', 'минут'];
-seconds = ['секнда', 'скунды', 'секунд'];
+seconds = ['секунда', 'секунды', 'секунд'];
 
 function getEnding(number, endings)
 {
